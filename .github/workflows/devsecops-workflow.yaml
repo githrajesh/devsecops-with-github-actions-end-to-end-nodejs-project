@@ -20,7 +20,7 @@ jobs:
       with:
         args: >
           -Dsonar.organization=javareachability_github
-          -Dsonar.projectKey=javareachability_github
+          -Dsonar.projectKey=javareachability-github
   security:
     runs-on: ubuntu-latest
     needs: build
